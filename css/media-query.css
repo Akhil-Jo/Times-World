@@ -1,0 +1,231 @@
+@media screen and (max-width: 1400px) {
+    .promotion-img {
+        width: 330px;
+    }
+    .promotions-image-box-sec {
+        height: 490px;
+    }
+    .promotions .slick-prev {
+        left: -30px !important;
+        top: 220px;
+    }
+    .promotions .slick-next {
+        right: -30px !important;
+        top: 220px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-bar-sec {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .logo-sec {
+        margin: 0 auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .navbar {
+        margin-top: 0em;
+        position: absolute;
+        top: 20px;
+        left: 17px;
+    }
+    .navbar-media {
+        display: none;
+    }
+    .navbar-offcanvas {
+        display: block !important;
+    }
+    .promotion-img {
+        width: 400px;
+    }
+    .promotions-image-box-sec {
+        height: 575px;
+    }
+    .promotions .slick-prev {
+        left: -20px !important;
+        top: 270px;
+    }
+    .promotions .slick-next {
+        right: -20px !important;
+        top: 270px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 36px;
+    }
+    .header-logo {
+        width: 170px;
+    }
+    .navbar {
+        top: 12px;
+        left: 15px;
+    }
+    .about-left-sec {
+        width: 91%;
+    }
+    .about-right-sec {
+        right: 5%;
+        bottom: 5em;
+    }
+    .about-one-side-line {
+        height: 80vh;
+    }
+    .promotion-img {
+        width: 500px;
+    }
+    .promotions-image-box-sec {
+        height: 700px;
+    }
+    .promotions-image-box-content {
+        left: 20%;
+        width: 55%;
+    }
+    .promotions .slick-prev {
+        top: 330px;
+    }
+    .promotions .slick-next {
+        top: 330px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-caption {
+        bottom: 0%;
+    }
+    .reserve-btn {
+        margin-top: 1em;
+        font-size: 12px;
+    }
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+    .header-logo {
+        width: 150px;
+    }
+    .banner-line-sec {
+        border: none;
+    }
+    .about-line-sec {
+        border: none;
+    }
+    .about-one-side-line {
+        border: none;
+    }
+    .about-left-sec {
+        margin-top: 3em;
+        position: static;
+    }
+    .about-one-side-line {
+        height: auto;
+    }
+    .about-right-sec {
+        position: static;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    .promotions .slick-prev {
+        display: none !important;
+    }
+    .promotions .slick-next {
+        display: none !important;
+    }
+    .promotions-image-box-content {
+        left: 7%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 26px;
+    }
+    .carousel-inner {
+        height: 550px;
+    }
+    .carousel-inner img {
+        min-height: 550px;
+    }
+    .about-right-sec {
+        text-align: center;
+    }
+    .about-img {
+        width: 350px;
+    }
+    .about-left-sec h3,
+    .head-title h2 {
+        font-size: 36px;
+    }
+    .gallery-sec {
+        padding-bottom: 3em;
+    }
+    .searchbox-wrap button span {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .promotions-image-box-sec {
+        height: 670px;
+    }
+    .searchbox-wrap button span {
+        margin-left: 0px;
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .promotions-image-box-sec {
+        height: 600px;
+    }
+    .sitemap-sec {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .searchbox-wrap button span {
+        font-size: 12px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-logo {
+        width: 120px;
+    }
+    .navbar {
+        top: 5px;
+        left: 5px;
+    }
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+    .about-img {
+        width: 300px;
+    }
+    .about-left-sec h3,
+    .head-title h2 {
+        font-size: 32px;
+    }
+    .about-left-sec {
+        margin-top: 2em;
+    }
+    .about-right-sec {
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+    .searchbox-wrap button span {
+        margin-left: -72px;
+    }
+    .searchbox-wrap input {
+        padding: 18px 25px;
+        font-size: 14px;
+    }
+}
